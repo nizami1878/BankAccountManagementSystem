@@ -1,22 +1,26 @@
 # 🏦 Bank Account Management System
 
-A simple and efficient **Java-based Bank Account Management System** that allows users to create and manage accounts, deposit and withdraw money, and check balances. This project demonstrates **object-oriented programming (OOP)** concepts, **data handling**, and **Gradle build management** in Java.
+A robust **Spring Boot-based Bank Account Management System** with JWT-based authentication, global exception handling, and RESTful APIs for managing bank accounts and transactions.
 
 ---
 
-## ✨ Features
-- ➕ Create new bank accounts  
-- 💰 Deposit and withdraw money  
-- 📊 Check account balance  
-- 📜 View transaction history  
-- 🛠 Update or delete account information  
-- ⚡ User-friendly console interface  
+## 🔹 Features
+
+- **Account Management**: Create, update, and delete bank accounts.  
+- **Transaction Management**: Deposit, withdraw, and transfer funds between accounts.  
+- **Security**: JWT authentication for secure access.  
+- **Global Exception Handling**  
+- **DTO & Mapper Layer**: Clean separation between entities and API requests/responses.  
+- **Testing**: Unit tests with JUnit and Mockito.
 
 ---
 
-## 🛠 Technologies Used
-- **Language:** Java  
-- **Build Tool:** Gradle (with wrapper support)  
-- **Data Storage:** MySQL 
-- **IDE Support:** Works with IntelliJ IDEA, Eclipse, or VS Code  
+## 🔹 Technologies & Tools
+
+- **Language:** Java 17+  
+- **Framework:** Spring Boot  
+- **Security:** Spring Security + JWT  
+- **Database:**  MySQL  
+- **Build Tool:** Gradle  
+- **Testing:** JUnit 5, Mockito  
 
